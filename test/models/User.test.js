@@ -1,3 +1,5 @@
+const User = require('../../app/models/User');
+
 describe("Unit tests for User Class", () => {
   test("Create an User object", () => {
     const user = new User(
